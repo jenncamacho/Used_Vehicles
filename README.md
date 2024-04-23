@@ -2,6 +2,11 @@
 What Drives (pun intended) the Price of a Used Car?
 Applying the CRISP-DM framework to answer the question: What factors make a car more or less expensive? 
 
+# Documents
+<>
+<>
+<>
+
 ## Business Understanding 
 The objective is to analyze the determinants of car pricing and consumer preferences in the used car market. Through this exploration, I aim to provide valuable insights for industry stakeholders navigating this dynamic landscape.
 
@@ -21,6 +26,7 @@ From an original dataset containing information on 3 million used cars the datas
     - High Cardinality: Having over 6000 unique values implies high cardinality, which can lead to a significant increase in dimensionality after encoding. This can make the dataset computationally expensive to process and may cause issues such as the curse of dimensionality.
     - Sparsity: High cardinality features often result in sparse matrices after one-hot encoding. This means that most of the encoded features will be zeros, leading to inefficiency in terms of memory usage and computational resources.
     - Model Complexity: Including a large number of one-hot encoded features may lead to overfitting, especially if the number of samples in the dataset is limited compared to the number of features.
+    - To simplify things,  I eliminate the columns containing object datatypes. I Dropping non-informative columns then saved a copy of the data set to run comparisons.
 
 ## Data Preparation and Visulalization
 <pre>
@@ -64,11 +70,14 @@ While an expensive car does not guarantee a more profitable car, we will assume 
 Future exploration: Including time on the lot or number of days til sold would be a good indicator of a cars demand.  A higher demand will drive up price.  Shorter days on the lot will reduce overhead and increase in car volumn will result in increase profits. 
 
 
+## License
+This project is open source.
+
+# Feel free to reach out if you have any questions or encounter any issues!
 
 
 
 
 
 
-To simplify things,  I eliminate the columns containing object datatypes. I Dropping non-informative columns then saved a copy of the data set to run comparisons.
 
