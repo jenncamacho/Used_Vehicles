@@ -3,9 +3,8 @@ What Drives (pun intended) the Price of a Used Car?
 Applying the CRISP-DM framework to answer the question: What factors make a car more or less expensive? 
 
 # Documents
-<>
-<>
-<>
+Notebook: https://github.com/jenncamacho/Used_Vehicles/blob/main/prompt_II_writeup.ipynb
+Presentation: https://docs.google.com/presentation/d/1Uo9uGbc4l_rXZ-6hBb_6fjKLO-4aoUVoFvcpcA_Sgjk/edit?usp=sharing
 
 ## Business Understanding 
 The objective is to analyze the determinants of car pricing and consumer preferences in the used car market. Through this exploration, I aim to provide valuable insights for industry stakeholders navigating this dynamic landscape.
@@ -64,6 +63,11 @@ The goal was to acheive predictive optimization through the utilization of vario
 - Providing a clear rationale for the selection of the evaluation metric.
 
 ### Next steps and recommendations
+
+####Dealership owners should look at the follow features that determine highest vehicle price:
+
+- Low Odometer 
+- Most recent Year
 
 More important that car price is profitability or realizing a higher price for a car in relation to the average expectation for that car.  
 While an expensive car does not guarantee a more profitable car, we will assume or accept that a car at a higher price will bring in more revenue that cars at a lower price.  We will try to keep all other factors constant. This will still tell us which cars a customer will value based on the fact that they are willing to pay a higher price for it. 
